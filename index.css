@@ -1,0 +1,86 @@
+#box1 {
+    border-width: 6px;
+    border-style: solid;
+    border-color: black;
+    width: 1000px;
+    height: 200px;
+}
+
+
+
+#smallrect {
+    position: relative;
+    top: 35px;
+    left: 10px;
+    background-color: rgb(137, 67, 208);
+    width: 50px;
+    height: 155px;
+}
+
+#bigrect {
+    position: absolute;
+    top: 25px;
+    left: 129px;
+    background-color: rgb(71, 153, 51);
+    width: 350px;
+    height: 170px;
+}
+
+#circle {
+    position: absolute;
+    border-radius: 50%;
+    top: 25px;
+    left: 550px;
+    background-color: rgb(121, 203, 248);
+    width: 170px;
+    height: 170px;
+}
+
+#box2 {
+    margin-top: 20px;
+    border-width: 5px;
+    border-style: dotted;
+    border-color: black;
+    width: 1000px;
+    height: 300px;
+}
+
+#rect {
+    position: relative;
+    box-shadow: 10px 10px 3px 0 rgb(79, 79, 79);
+    background-color: rgb(255, 247, 201);
+    width: 900px;
+    height: 200px;
+    top: 40px;
+    left: 50px;
+}
+
+#box3 {
+    position: fixed;
+    left: 260px;
+    top: 575px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(201, 201, 201);
+    background-color: rgb(255, 255, 255);
+    width: 550px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 0px rgb(215, 215, 215);
+}
+    
+
+h1 {
+    margin-top: 100px;
+    letter-spacing: 11px;
+    color: rgb(2, 2, 123);
+    margin-left: 153px;
+    margin-right: 153px;
+    vertical-align: center;
+}
+
+h6 {
+    cursor: pointer;
+}
+
+
